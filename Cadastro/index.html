@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <fieldset>
+
+        <h1>Formulário - Enquete</h1>
+
+        <label for="nome">Nome:</label>
+        <input type="text">
+
+        <label for="data">Data de nascimento:</label>
+        <input type="date">
+
+        <label for="endereco">Endereço:</label>
+        <input type="text">
+
+        <label for="nro">Nro:</label>
+        <input type="number">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text">
+
+        <label for="estado">Estado:</label>
+        <select name="estado">
+            <option value="selecione">Selecione</option>
+            <option value="op1">AC</option>
+            <option value="op2">AL</option>
+            <option value="op3">AP</option>
+            <option value="op4">AM</option>
+            <option value="op5">BA</option>
+            <option value="op6">CE</option>
+            <option value="op7">DF</option>
+            <option value="op8">ES</option>
+            <option value="op9">GO</option>
+            <option value="op10">MA</option>
+            <option value="op11">MT</option>
+            <option value="op12">MS</option>
+            <option value="op13">MG</option>
+            <option value="op14">PA</option>
+            <option value="op15">PB</option>
+            <option value="op16">PR</option>
+            <option value="op17">PE</option>
+            <option value="op18">PI</option>
+            <option value="op19">RJ</option>
+            <option value="op20">RN</option>
+            <option value="op21">RS</option>
+            <option value="op22">RO</option>
+            <option value="op23">RR</option>
+            <option value="op24">SC</option>
+            <option value="op25">SP</option>
+            <option value="op26">SE</option>
+            <option value="op27">TO</option>
+        </select>
+
+        <label for="sexo">Sexo:</label>
+        <select name="sexo">
+            <option value="sel">Selecione</option>
+            <option value="Fem">Feminino</option>
+            <option value="masc">Masculino</option>
+            <option value="outros">Outros</option>
+        </select>
+
+        <label for="bp">Bens Pessoas:</label>
+        <label for="casa" id="bps">
+            <input type="checkbox">Casa
+        </label>
+        <label for="carro" id="bps">
+            <input type="checkbox">Carro
+        </label>
+        <label for="moto" id="bps">
+            <input type="checkbox">Moto
+        </label>
+
+        <label for="ep">Experiências Pessoais:</label>
+        <textarea name="exp" placeholder="Nos conte mais sobre você"></textarea>
+
+        <div class="button-container">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+        
+    </fieldset>
+</body>
+</html>
