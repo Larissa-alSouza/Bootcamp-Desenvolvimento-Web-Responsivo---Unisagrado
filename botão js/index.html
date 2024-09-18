@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cor da Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="mudarCor()">Clique aqui!</button>
+
+    <script>
+        let corOriginal = true;
+
+        function mudarCor() {
+            if (corOriginal) {
+                document.body.style.backgroundColor = "blue";
+            } else {
+                document.body.style.backgroundColor = "";
+            }
+            corOriginal = !corOriginal; // Alterna o estado
+        }
+    </script>
+
+</body>
+</html>

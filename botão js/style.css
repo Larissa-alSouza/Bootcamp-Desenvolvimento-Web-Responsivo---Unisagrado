@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 15px; /* Arredondando os cantos */
+    border: none;
+    background-color: #008CBA; /* Cor original do botão */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+    background-color: #005f73; /* Cor ao passar o mouse */
+}
